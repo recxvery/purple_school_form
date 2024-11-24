@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1 class="label_form">Свяжитесь со мной</h1>
+        <form class="form">
+                <div class="field">
+                    <img src="img/message.svg" alt="email icon">
+                    <label for="email">E-mail*</label>
+                    <input type="email" name="email" id="email" placeholder="Введите email" required>
+                </div>
+                <div class="field">
+                    <img src="img/telegram.svg" alt="telegram icon">
+                    <label for="tg">Telegram</label>
+                    <input type="text" name="telegram" placeholder="Введите telegram id" id="tg" required>
+                </div>
+                <div class="field">
+                    <img src="img/topic.svg" alt="topic icon">
+                    <label for="topic">Тема*</label>
+                    <select name="topic" id="topic">
+                        <option value="1" selected>Приобретение курсов</option>
+                        <option value="2">Личная консультация</option>
+                        <option value="3">Материал</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="commentary">Комментарий</label>
+                    <textarea name="comm" id="commentary" cols="30" rows="10" placeholder="Введите комментарий"></textarea>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+        </main>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <form action="/test"> -->
+        <!-- http://127.0.0.1:5500/test?hid=&email=gamesfkdek%40gmail.com&passowrd=kombat06&Birth_date=2006-03-11 -->
+        <!-- <input type="hidden" name="hid" id="">
+        <button type="submit">ЖМЯК</button>
+        <div>
+            <label for="email">Введите email</label>
+            <input type="email" placeholder="User's email" id="email" name="email" value="no@email.ru" >
+        </div>
+        <div>
+            <label for="password">Введите пароль</label>
+            <input type="password" placeholder="Users's password" id="password" name="passowrd" value="123456">
+        </div>
+        <div>
+            <label for="date">Введите дату рождения</label> 
+            <input type="date" placeholder="Birth date" id="date" name="Birth_date" value="2024-11-04">
+
+        </div> -->
+    <!-- </form>
+    <div style="margin: 12px;">   
+        <form action="#" class="query">
+            <label for="query">Введите запрос</label>   
+            <input 
+                type="text" 
+                name="search_query" 
+                placeholder="введите поисковой запрос" 
+
+                title="Введите только цифры"
+                minlength="3"  
+                maxlength="20"
+                pattern="/^\d+$  ">
+                <input type="email" name="email" id="email">
+                <input type="url" name="" id="">
+            <div>
+                <label for="agree">Согласен с обработкой данных </label>
+                <input type="checkbox" name="agree" id="agree" checked>
+            </div>
+            <div>
+                <label for="all">Поиск повсюду</label>
+                <input type="radio" name="search" id="all" value="all">
+            </div>
+            <div>
+                <label for="all">Поиск по youtube</label>
+                <input type="radio" name="search" id="all" value="youtube">
+            </div> 
+            <div>
+                <label for="topic">Тематика</label>
+                <select name="topic" id="topic">
+                    <option value="1">Все</option>
+                    <optgroup label="Esports">
+                        <option value="2" selected>Dota 2</option>2
+                        <option value="3">CS 2 </option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="volume">Громкость</label>
+                <input type="range" name="volume" id="volumeee" min="0" max="100" step="10">
+            </div>
+            <div>
+                <label for="point">Оценка</label>
+                <input type="number" name="point" id="point" min="2" max="5" step="1">
+            </div>
+            <div>
+                <label for="text">Комментарий</label>
+                <textarea name="text" id="text" name="commentary" rows="10" cols="100" placeholder="Введите текст"></textarea>
+            </div>
+            <button type="submit">Поиск</button>
+        </form>
+        </div> -->
